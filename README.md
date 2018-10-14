@@ -1,9 +1,5 @@
 ### Shell scripting ###
-<<<<<<< HEAD
-![alt text](images/bashshell1.png)<br>
-=======
-![alt text](images/shell1.png)<br>
->>>>>>> 7d2bfe42dc8c31fabbf01aeea5ab6809fdfa6c42
+![alt text](images/bash/shell1.png)<br>
 The Shell wraps around the delicate interior of an Operating system protecting it from accidental damage. Hence the name ShellM<br>
 
 When you run the terminal(ctl+alt+T), the Shell issues a command prompt (usually $)<br>
@@ -15,7 +11,6 @@ Each operating system  has a command language interpreter processor which execut
 Note : here input pwd
 
 ### Types of Shell ###
-<<<<<<< HEAD
 1. `Bourne Shell (sh)`:  Bourne Shell  is the original unix shell developed at Bell Labs by Stephen Bourne. It prompt as $, execute on command .sh
 
 2. `Bourne Again Shell (bash)` : It is the free version of Bourne shell  with some more advanced features found in the C, TC and Korn shells.its most popular shell and default shell of unit/linux os . Bash is inteded to be a conformant implementation of the shell IEEE POSTX specification(IEEE 1003.1)
@@ -27,7 +22,6 @@ Note : here input pwd
 5. `Tab C chell (tcsh)` : It is the family member of  C shell with additional features like enhanced history substitution to reuse commands, spelling correction and word completion
 
 6. `Z shell (Zsh)` : Zsh is an extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh
-=======
 1. Bourne Shell (sh):  Bourne Shell  is the original unix shell developed at Bell Labs by Stephen Bourne. It prompt as $, execute on command .sh
 
 2. Bourne Again Shell (bash) : It is the free version of Bourne shell  with some more advanced features found in the C, TC and Korn shells.its most popular shell and default shell of unit/linux os . Bash is inteded to be a conformant implementation of the shell IEEE POSTX specification(IEEE 1003.1)
@@ -39,7 +33,7 @@ Note : here input pwd
 5. Tab C chell (tcsh) : It is the family member of  C shell with additional features like enhanced history substitution to reuse commands, spelling correction and word completion
 
 6. Z shell (Zsh) : Zsh is an extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh
->>>>>>> 7d2bfe42dc8c31fabbf01aeea5ab6809fdfa6c42
+
 It has some unique features that include:
 
     1. Filename generation
@@ -51,17 +45,11 @@ It has some unique features that include:
     7. Functions index
     8. Key index and many more that you can find out in man pages
 
-<<<<<<< HEAD
-7. `Fish( in full stands for)`:  It was intended to be fully interactive and user friendly, just like the other shells, it has some pretty good features that include:
-=======
 7. Fish( in full stands for):  It was intended to be fully interactive and user friendly, just like the other shells, it has some pretty good features that include:
->>>>>>> 7d2bfe42dc8c31fabbf01aeea5ab6809fdfa6c42
 
-    1. Man page completions
     2. Web based configuration
     3. Auto-suggestions
     4. Fully scriptable with clean scripts
-<<<<<<< HEAD
     5. Support for term256 terminal technology
 
 ###  Shell type Usefull command ###
@@ -69,6 +57,3 @@ It has some unique features that include:
 ![alt text](images/bashshell3.png)<br>
 2. `echo $0` : Show default shell  
 ![alt text](images/bashshell4.png)<br>
-=======
-    5. Support for term256 terminal technology
->>>>>>> 7d2bfe42dc8c31fabbf01aeea5ab6809fdfa6c42
