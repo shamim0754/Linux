@@ -1,4 +1,4 @@
-### Shell scripting ###
+### Shell ###
 ![alt text](images/bash/shell1.png)<br>
 The Shell wraps around the delicate interior of an Operating system protecting it from accidental damage. Hence the name ShellM<br>
 
@@ -13,9 +13,9 @@ Note : here input pwd
 ### Types of Shell ###
 1. `Bourne Shell (sh)`:  Bourne Shell  is the original unix shell developed at Bell Labs by Stephen Bourne. It prompt as $, execute on command .sh
 
-2. `Bourne Again Shell (bash)` : It is the free version of Bourne shell  with some more advanced features found in the C, TC and Korn shells.its most popular shell and default shell of unit/linux os . Bash is inteded to be a conformant implementation of the shell IEEE POSTX specification(IEEE 1003.1)
+2. `Bourne Again Shell (bash)` : It is the free version of Bourne shell  with some more advanced features found in the C, TC and Korn shells.It prompt as $, execute on command .sh .its most popular shell and default shell of unit/linux os . Bash is inteded to be a conformant implementation of the shell IEEE POSTX specification(IEEE 1003.1)
 
-3. `Korn shell(ksh)` : korn shell is the unix shell developed by David korn of Bell labs. Is is considered as the family member of Bourne shell as it uses the $ symbol of Bourne shell and execute on command .ksh.
+3. `Korn shell(ksh)` : korn shell is the unix shell developed by David korn of Bell labs. Is is considered as the family member of Bourne shell as it uses the $ symbol of Bourne shell and execute on command .ksh
 
 4. `C Shell (csh)` : C shell is the UNIX shell created by Bill joy at California university as an alternative to Bourne shell . It based on C language. It prompt as %, execute on command .csh
 
@@ -54,6 +54,29 @@ It has some unique features that include:
 
 ###  Shell type Usefull command ###
 1. `cat /etc/shells` : Show all available shell     
-![alt text](images/bashshell3.png)<br>
-2. `echo $0` : Show default shell  
-![alt text](images/bashshell4.png)<br>
+![alt text](images/bash/shell3.png)<br>
+2. `echo $0` or `echo $SHELL` : Show default shell  
+![alt text](images/bash/shell4.png)<br>
+3. Install shell
+    1. apt-get install zsh (ubuntu)
+
+3. swtich shell
+    1. chsh -s `which zsh` : 
+    2. sudo shutdown -r 0
+
+### Shell Scripting ###
+ Shell Scripting(Programming) is combine series of command and repetitive sequences of commands into a single to execute for the shell again and again. hence it reduces the effort required by end user
+
+### Hello world ###
+1. Create a file  with extension .sh `sudo vim helloworld.sh` 
+2. Start code with "#!"(shebang operator) script to the interpreter location
+    Note : if you want to execute it to default shell, then shebang is not necessary
+3. Write code on it
+```sh
+echo "hello world";
+echo 'Hello world';
+echo hello world;
+```
+Note : shell sciption is losely cupled. so it could be either single quote,double quote or not quote at all. But first one the best practice.
+
+4. Execute command : `sudo bash/sh helloworld.sh`
