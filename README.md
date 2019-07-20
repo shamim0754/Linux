@@ -45,7 +45,7 @@ It has some unique features that include:
     7. Functions index
     8. Key index and many more that you can find out in man pages
 
-7. Fish( in full stands for):  It was intended to be fully interactive and user friendly, just like the other shells, it has some pretty good features that include:
+7. Fish(  Friendly Interactive Shell):  it has some pretty good features that include:
 
     2. Web based configuration
     3. Auto-suggestions
@@ -57,8 +57,7 @@ It has some unique features that include:
 ![alt text](images/bash/shell3.png)<br>
 2. `echo $0` or `echo $SHELL` : Show default shell  
 ![alt text](images/bash/shell4.png)<br>
-3. Install shell
-    1. apt-get install zsh (ubuntu)
+3. Install shell : See doumentation of installing shell of linux os . for ubuntu `apt-get install zsh`
 
 3. swtich shell
     1. chsh -s `which zsh` : 
@@ -67,16 +66,19 @@ It has some unique features that include:
 ### Shell Scripting ###
  Shell Scripting(Programming) is combine series of command and repetitive sequences of commands into a single to execute for the shell again and again. hence it reduces the effort required by end user
 
-### Hello world ###
+### Hello world script ###
 1. Create a file  with extension .sh `sudo vim helloworld.sh` 
 2. Start code with "#!"(shebang operator) script to the interpreter location
     Note : if you want to execute it to default shell, then shebang is not necessary
 3. Write code on it
 ```sh
+#!/bin/sh
 echo "hello world";
 echo 'Hello world';
 echo hello world;
 ```
-Note : shell sciption is losely cupled. so it could be either single quote,double quote or not quote at all. But first one the best practice.
+Note : shell sciptiong is losely cupled. so it could be either single quote,double quote or not quote at all. But first one the best practice.
 
 4. Execute command : `sudo bash/sh helloworld.sh`
+
+### Variable ###
